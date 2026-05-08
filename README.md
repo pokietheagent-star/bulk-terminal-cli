@@ -1,6 +1,6 @@
 # BULK Monitor
 
-A CLI-first market monitor built for a BULK-style perp terminal workflow.
+A CLI-first market monitor built for BULK.
 
 Current MVP:
 
