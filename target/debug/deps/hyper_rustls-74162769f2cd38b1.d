@@ -1,0 +1,9 @@
+C:\Users\bayur\Documents\Codex\2026-05-08\i-have-this-github-sdk-for\target\debug\deps\hyper_rustls-74162769f2cd38b1.d: C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\lib.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\config.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\connector.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\connector\builder.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\stream.rs
+
+C:\Users\bayur\Documents\Codex\2026-05-08\i-have-this-github-sdk-for\target\debug\deps\libhyper_rustls-74162769f2cd38b1.rmeta: C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\lib.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\config.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\connector.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\connector\builder.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\stream.rs
+
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\lib.rs:
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\config.rs:
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\connector.rs:
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\connector\builder.rs:
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\hyper-rustls-0.27.9\src\stream.rs:

@@ -1,0 +1,7 @@
+C:\Users\bayur\Documents\Codex\2026-05-08\i-have-this-github-sdk-for\target\debug\deps\utf8_iter-ad445a2c233037c3.d: C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\lib.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\indices.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\report.rs
+
+C:\Users\bayur\Documents\Codex\2026-05-08\i-have-this-github-sdk-for\target\debug\deps\libutf8_iter-ad445a2c233037c3.rmeta: C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\lib.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\indices.rs C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\report.rs
+
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\lib.rs:
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\indices.rs:
+C:\Users\bayur\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\utf8_iter-1.0.4\src\report.rs:
