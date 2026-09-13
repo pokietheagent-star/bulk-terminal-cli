@@ -6,8 +6,8 @@ import { networkGet, networkSet } from "./commands/network.js";
 import { runCommand } from "./commands/run.js";
 import { MainnetLiveBlockedError } from "./safety.js";
 
-loadEnv();
-loadEnv({ path: "mm-cli/.env" });
+loadEnv({ quiet: true });
+loadEnv({ path: "mm-cli/.env", quiet: true });
 
 const program = new Command();
 program
