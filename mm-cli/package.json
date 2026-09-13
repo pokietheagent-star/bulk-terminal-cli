@@ -1,0 +1,29 @@
+{
+  "name": "bulk-mm-cli",
+  "version": "0.1.0",
+  "description": "Bulk Trade single-market market-making CLI. Dry-run by default.",
+  "type": "module",
+  "bin": {
+    "bulk-mm": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dry-run": "tsx src/cli.ts run --mode dry-run --ticks 5 --interval-ms 1500",
+    "start": "tsx src/cli.ts",
+    "test": "tsx --test src/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bulk-keychain": "^0.1.27",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
