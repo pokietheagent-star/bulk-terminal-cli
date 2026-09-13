@@ -1,0 +1,15 @@
+{
+  "name": "bulk-mm",
+  "private": true,
+  "description": "Bulk Trade market-making CLI (primary). Existing Rust watchlist is unchanged.",
+  "scripts": {
+    "postinstall": "npm --prefix mm-cli install",
+    "dry-run": "npm --prefix mm-cli run dry-run",
+    "bulk-mm": "npm --prefix mm-cli run start --",
+    "test": "npm --prefix mm-cli test",
+    "typecheck": "npm --prefix mm-cli run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

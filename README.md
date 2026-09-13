@@ -1,49 +1,29 @@
-# BULK Monitor
+# Bulk MM CLI
 
-A CLI-first market monitor built for BULK.
+Command-line market maker for [Bulk](https://docs.bulk.trade/api-reference/introduction). One market (`BTC-USD` by default). **Dry-run is the default and places nothing.**
 
-Current MVP:
+**Not financial advice. Market making can lose money. Dry-run first, then testnet.**
 
-- terminal watchlist for `BTC-USD`, `ETH-USD`, and `SOL-USD`
-- live BULK websocket market feed for ticker and L2 snapshots
-- real order book pane
-- trade tape pane
-- local alert stream for funding, spread, imbalance, oracle gap, and OI moves
-- RSS-backed crypto news pane
-- symbol-aware headline filtering
-- severity highlighting for risk and policy headlines
-- automatic fallback to simulated market data if BULK is unreachable
-
-## Controls
-
-- `q`: quit
-- `j` / `k`: move through markets
-- `h` / `l`: move through headlines
-- `a`: toggle active-symbol-only news filter
-- `s`: toggle medium/high severity filter
-- `g`: sort watchlist by symbol
-- `m`: sort watchlist by move
-- `f`: sort watchlist by funding
-- `o`: sort watchlist by open interest
-- `p`: sort watchlist by spread
-- `1`: 1m chart view
-- `5`: 5m chart view
-- `t`: 15m chart view
-- `y`: 60m chart view
-
-## Run
+## Clone and dry-run
 
 ```bash
-cargo run
+npm install && npm run dry-run
 ```
 
-## Free RSS Feeds
+Five ticks against testnet public data. Prints mid + would-be ALO bid/ask. No keys. No `POST /order`.
 
-- CoinDesk: `https://www.coindesk.com/arc/outboundfeeds/rss/`
-- Cointelegraph: `https://cointelegraph.com/rss.xml`
+The CLI lives in [`mm-cli/`](mm-cli/). Full flags, network switch, faucet, and the mainnet gate are documented there.
 
-## Notes
+```bash
+npx --prefix mm-cli tsx mm-cli/src/cli.ts run --network testnet
+npx --prefix mm-cli tsx mm-cli/src/cli.ts network set testnet
+npx --prefix mm-cli tsx mm-cli/src/cli.ts faucet --network testnet
+```
 
-The market worker connects to `wss://exchange-wss.bulk.trade` through the Rust `bulk-client`
-SDK, subscribes to ticker updates for the watchlist, and subscribes to L2 snapshots for
-order-book depth.
+Live mainnet requires **both** `--enable-mainnet` and `BULK_ALLOW_MAINNET=1`.
+
+Keys are env-only. See [`.env.example`](.env.example). Never commit secrets.
+
+## Also in this repo
+
+The existing Rust watchlist is unchanged. See [MONITOR.md](MONITOR.md) (`cargo run`). It is not this market-making CLI.
